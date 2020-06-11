@@ -1,0 +1,22 @@
+{
+  "name": "ty_coder/Blitz",
+  "description": "Blitz Framework",
+  "keywords": ["framework", "blitz"],
+  "authors": [
+    {
+      "name": "tyCoder"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Blitz\\": "src/"
+    },
+    "files": [
+      "src/function.php"
+    ]
+  }
+}
