@@ -4,7 +4,7 @@
 namespace Blitz\Request;
 
 
-class Request implements RequestInterface
+class Request
 {
-    
+    public $request_time;
 }
