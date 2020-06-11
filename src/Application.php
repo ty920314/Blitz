@@ -21,6 +21,7 @@ class Application
 
     private function init():void
     {
+        tests();
         $this->request = new Request();
         self::BparseRequest();
     }
