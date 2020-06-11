@@ -1,22 +1,21 @@
 {
-  "name": "ty_coder/Blitz",
-  "description": "Blitz Framework",
-  "keywords": ["framework", "blitz"],
-  "authors": [
+  "name": "ty_coder/blitz",
+  "description": "a php micro framework",
+  "type": "library",
+  "require": {
+    "php": ">=7.0"
+  },
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
     {
-      "name": "tyCoder"
+      "name": "ty",
+      "email": "15811217264@163.com"
     }
   ],
-  "license": "MIT",
-  "require": {
-    "php": ">=7.2"
-  },
-  "autoload": {
-    "psr-4": {
-      "Blitz\\": "src/"
-    },
-    "files": [
-      "src/function.php"
-    ]
+  "autoload": {
+    "psr-4": {
+      "Blitz\\": "src/"
+    }
   }
 }
